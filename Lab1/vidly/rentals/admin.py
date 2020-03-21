@@ -1,0 +1,11 @@
+from django.contrib import admin
+from .models import Genre, Movie, Game, Director, Publisher
+# Register your models here.
+
+admin.site.register(Genre)
+admin.site.register(Movie)
+admin.site.register(Game)
+admin.site.register(Publisher)
+admin.site.register(Director)
+
+
